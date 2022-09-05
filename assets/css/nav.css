@@ -1,0 +1,214 @@
+/*================================================
+ header section
+==================================================*/
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+  padding: 7px 20px;
+  margin: 10px 15px;
+  text-align: center;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.custom_nav-container .navbar-nav .nav-item.active .nav-link,
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link {
+  background-color: #E55713;
+  color: white;
+}
+
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+}
+
+.custom_nav-container .navbar-toggler {
+  padding: 0;
+  width: 37px;
+  height: 42px;
+}
+
+
+
+/*================================================
+ end header section
+==================================================*/
+
+
+/*================================================
+ contact section
+==================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+.layout_padding {
+  padding: 90px 0;
+}
+
+.layout_padding2 {
+  padding: 75px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 75px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 75px;
+}
+
+.layout_padding-top {
+  padding-top: 90px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 90px;
+}
+
+.heading_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.heading_container h2 {
+  position: relative;
+  font-weight: bold;
+}
+
+.heading_container h2 span {
+  color: #582FD7;
+}
+
+.heading_container.heading_center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* contact section */
+.contact_section {
+  position: relative;
+}
+
+.contact_section .heading_container {
+  margin-bottom: 25px;
+}
+
+.contact_section .heading_container h2 {
+  text-transform: uppercase;
+}
+
+.contact_section .form_container {
+  margin-right: 15px;
+  -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.07);
+  padding: 45px 25px;
+}
+
+.contact_section .form_container input {
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  outline: none;
+  color: #101010;
+  background-color: #f8f8f8;
+}
+
+.contact_section .form_container input::-webkit-input-placeholder {
+  color: #371e71;
+}
+
+.contact_section .form_container input:-ms-input-placeholder {
+  color: #371e71;
+}
+
+.contact_section .form_container input::-ms-input-placeholder {
+  color: #371e71;
+}
+
+.contact_section .form_container input::placeholder {
+  color: #371e71;
+}
+
+.contact_section .form_container input.message-box {
+  height: 120px;
+}
+
+.contact_section .form_container button {
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 65px;
+  background-color: #ed6524;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: none;
+}
+
+.contact_section .form_container button:hover {
+  background-color: #bb2d3b;
+}
+
+.contact_section .img-box img {
+  width: 100%;
+}
+
+/* end contact section */
+/*================================================
+ end contact section
+==================================================*/
+
+/*================================================
+ Nav Button section
+==================================================*/
+
+.btn-cta,
+a.btn-cta {
+  font-size: 15px;
+  line-height: 22.5px;
+  text-align: center;
+  letter-spacing: normal;
+  border-radius: 4px;
+  padding: 8px 30px;
+  margin: 3px 10px 5px 0;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+
+  .btns .btn {
+    margin-right: 0;
+    clear: both;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .btns .btn {
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 8px 30px;
+  }
+
+}
+
+/*================================================
+ end nav section
+==================================================*/

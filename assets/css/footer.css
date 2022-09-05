@@ -1,0 +1,119 @@
+/*================================================
+ footer section
+==================================================*/
+
+footer {
+  background-color: #1a1a1a;
+  background-size: cover;
+  background-position: top;
+}
+
+.info_section {
+  color: #ffffff;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.info_section h5 {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.info_section .info_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.info_section .info_links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.info_section .info_links a:hover,
+.info_section .info_links a.active {
+  color: #ed6524;
+}
+
+.info_section .info_contact a {
+  color: #ffffff;
+}
+
+.info_section .info_contact a:hover,
+.info_section .info_contact a.active {
+  color: #ed6524;
+}
+
+.info_section .info_contact .img-box {
+  width: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.info_section .info_contact p {
+  margin: 0;
+}
+
+.info_section .info_contact>div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+
+/* footer section*/
+.footer_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.footer_section p {
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ffffff;
+}
+
+.footer_section a {
+  color: #ffffff;
+}
+
+.info a {
+
+  color: #ffffff;
+}
+
+.info a:hover,
+.info a.active {
+  color: #ed6524;
+}
+
+/*================================================
+ end footer section
+==================================================*/
