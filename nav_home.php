@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-expand-sm bg-light navbar-light custom_nav-container">
+  <nav class="navbar navbar-expand-lg bg-light navbar-light custom_nav-container">
     <div class="container">
 
       <a class="navbar-brand" href="#"><img height="35px" width="35px" class="logo-icon me-2" src="assets/images/logo.jpg" alt="logo"><span class="logo-text"><?php echo $site['webname']; ?></span></a>
